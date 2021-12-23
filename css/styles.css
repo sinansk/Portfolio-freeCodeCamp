@@ -1,0 +1,172 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  padding-top: 56px;
+  background-color: #DFD8CA;
+}
+
+hr {
+  border-color: #00A19D;
+  background-color: inherit;
+  border-style: dashed none none none;
+  border-width: 10px;
+  width: 15%;
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+table {
+  border-spacing: 10px;
+  border-collapse: separate;
+  align-items: center;
+  text-align: center;
+  margin: 50px auto auto;
+}
+
+/**** NAV SECTION****/
+
+.nav-item {
+  font-size: 1.4rem;
+  font-family: 'Roboto', sans-serif;
+  margin: 0 10px;
+  color: #fff ;
+}
+
+.nav-link:hover {
+  color: #DFD8CA !important;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.navbar-expand-lg {
+  background-color: #4F091D;
+  color: #fff;
+}
+
+/**** HOME SECTION****/
+.home {
+  background-color: #F5EEDC;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  display: block;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.home-text {
+  margin: 20px 15%;
+  font-size: 30px;
+}
+
+.home-icon {
+  font-size: 96px;
+  margin: 70px auto 50px;
+}
+
+/**PROJECT SECTION***/
+.project {
+  background-color: #97BFB4;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  display: block;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.header {
+  color: inherit;
+  text-align: center;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.project-img {
+  width: 300px;
+  height: 200px;
+}
+
+.project-hr {
+  border-color: #B91646;
+  background-color: inherit;
+}
+
+/** CONCACT SECTION**/
+.contact {
+  background-color: #F5EEDC;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  position: absolute;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: #B91646;
+  font-size: 2rem;
+}
+
+.social-icon:hover {
+  color: #4F091D;
+}
+
+.footer {
+  width: 100%;
+  height: 10%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  bottom: 0;
+  background-color: #105652;
+  margin: 0;
+  color: #F5EEDC;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-link {
+  color: #F5EEDC;
+}
+.footer-link:hover {
+  color: #4F091D;
+}
+
+@media (max-width: 681px) {
+  .home-text {
+    font-size: 14px;
+  }
+
+  .home-icon {
+    font-size: 74px;
+  }
+
+  .project-header {
+    font-size: 1.5rem;
+  }
+
+  .project-img {
+    width: 100px;
+    height: 70px;
+  }
+}
