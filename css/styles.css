@@ -89,7 +89,6 @@ table {
 .header {
   color: inherit;
   text-align: center;
-  margin: auto;
   padding-top: 20px;
 }
 
@@ -161,6 +160,11 @@ table {
     font-size: 74px;
   }
 
+  .project {
+    height: 50vh;
+    width: 100%;
+  }
+
   .project-header {
     font-size: 1.5rem;
   }
@@ -168,5 +172,15 @@ table {
   .project-img {
     width: 100px;
     height: 70px;
+  }
+}
+@media (min-width: 681px) and (max-width: 960px) {
+  .project-img {
+    width: 200px;
+    height: 150px;
+  }
+  .project {
+    height: 70vh;
+    width: 100%;
   }
 }
