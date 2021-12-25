@@ -173,10 +173,6 @@ table {
     width: 100px;
     height: 70px;
   }
-  .contact {
-    height: 50vh;
-    width: 100%;
-  }
 }
 @media (min-width: 681px) and (max-width: 960px) {
    .home {
