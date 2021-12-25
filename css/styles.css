@@ -175,12 +175,16 @@ table {
   }
 }
 @media (min-width: 681px) and (max-width: 960px) {
+   .home {
+    height: 50vh;
+    width: 100%;
+  }
   .project-img {
     width: 200px;
     height: 150px;
   }
   .project {
-    height: 70vh;
+    height: 50vh;
     width: 100%;
   }
 }
